@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Badri Vishal Kasuba — Personal Website
 
-You can use the [editor on GitHub](https://github.com/kasuba-badri-vishal/kasuba-badri-vishal.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Source for [kasuba-badri-vishal.github.io](https://kasuba-badri-vishal.github.io/) — the personal portfolio of
+**Badri Vishal Kasuba**, Senior Compiler Engineer at Quadric.io and MS-by-Research scholar at IIT Bombay.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A hand-built, dependency-free static site: refined light theme with a dark-mode toggle, showcasing
+experience, research & publications, projects, skills, achievements and more.
 
-### Markdown
+## Stack
+- Plain **HTML + CSS + JavaScript** (no framework, no build step)
+- Google Fonts (Fraunces · Inter · JetBrains Mono) + Font Awesome icons
+- Deployed via **GitHub Pages** (static; `.nojekyll`)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Structure
+```
+index.html    → all content & sections
+style.css     → design system (light/dark tokens) + components
+script.js     → theme toggle, nav, scrollspy, filters, animations
+favicon.svg   → monogram favicon
+resources/    → images, résumé PDF, videos
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Develop locally
+Just open `index.html` in a browser, or serve the folder:
+```bash
+python3 -m http.server 8000   # then visit http://localhost:8000
+```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kasuba-badri-vishal/kasuba-badri-vishal.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+© Badri Vishal Kasuba. Built from scratch.

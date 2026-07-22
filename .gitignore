@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+**/.DS_Store
+
+# Editor / tooling
+.claude/
+.vscode/
+
+# Large source media (site uses the optimized *_web versions instead)
+resources/myvideo.mp4
+resources/techfest_Demo.mp4
