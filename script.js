@@ -86,11 +86,11 @@
   /* ---------- Typed roles ---------- */
   var typed = document.getElementById('typed');
   var roles = [
+    'Incoming SDE II @ Amazon',
     'Senior Compiler Engineer @ Quadric',
     'Deep Learning Compiler Engineer',
     'MS by Research @ IIT Bombay',
-    'Document AI & OCR Researcher',
-    'Ex-SDE @ Amazon'
+    'Document AI & OCR Researcher'
   ];
   if (typed && !prefersReduced) {
     var ri = 0, ci = 0, deleting = false;
