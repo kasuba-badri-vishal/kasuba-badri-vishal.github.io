@@ -397,6 +397,8 @@ ul { list-style: none; }
 .proj-links a { width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center;
   color: var(--muted); border: 1px solid var(--border); transition: all 0.22s var(--ease); font-size: 0.95rem; }
 .proj-links a:hover { color: var(--accent-ink); border-color: var(--accent); transform: translateY(-2px); }
+.proj-private { width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center;
+  color: var(--muted); border: 1px dashed var(--border-strong); font-size: 0.82rem; cursor: help; }
 .proj h3 { font-size: 1.12rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
 .proj .sub { font-family: var(--font-mono); font-size: 0.74rem; color: var(--accent-ink); margin-top: 2px; }
 .proj p { color: var(--text-2); font-size: 0.94rem; margin-top: 10px; flex: 1; }
