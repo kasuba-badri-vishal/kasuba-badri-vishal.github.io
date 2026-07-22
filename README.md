@@ -1,7 +1,9 @@
 # Badri Vishal Kasuba — Personal Website
 
-Source for [kasuba-badri-vishal.github.io](https://kasuba-badri-vishal.github.io/) — the personal portfolio of
-**Badri Vishal Kasuba**, Senior Compiler Engineer at Quadric.io and MS-by-Research scholar at IIT Bombay.
+### 🔗 Live: **https://kasuba-badri-vishal.github.io/**
+
+Source for the personal portfolio of **Badri Vishal Kasuba** — Senior Compiler Engineer at Quadric.io
+(joining Amazon as an SDE II in 2026) and MS-by-Research from IIT Bombay.
 
 A hand-built, dependency-free static site: refined light theme with a dark-mode toggle, showcasing
 experience, research & publications, projects, skills, achievements and more.
